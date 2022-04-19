@@ -27,16 +27,14 @@
 
 //const
  
-const forma = "triangulo";
-const altura = 5;
-const comprimente = 7;
+function forma(altura, comprimente) {
 let area; 
-
-if(forma == "quadrado"){
+if(area = " triagulo"){
  area = altura * comprimente;
 } else {
     area = (altura * comprimente)/2
 }
+return area;
+}
 
-
-console.log(area)
+console.log(forma(5,7))

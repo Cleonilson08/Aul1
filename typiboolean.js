@@ -1,6 +1,14 @@
 // boolean
-const senhausuario = true;
-const contapaga = false; 
+//const senhausuario = true;
+//const contapaga = false; 
+function dados(senhausuario) {
+    if(senhausuario == true){
+        return "acesso permitido";
+    }else{
+        return "acesso negado";
+    }
+}            
+console.log(dados(true))
 
 // truthy e falsy
 // 0 >= false
